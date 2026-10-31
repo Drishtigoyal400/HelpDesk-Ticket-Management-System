@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - HelpDesk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2>HelpDesk Portal</h2>
+        <nav class="nav-links">
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="create-ticket.html">Create Ticket</a>
+            <a href="all-tickets.html">All Tickets</a>
+            <a href="agents.html">Support Staff</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h2>Welcome to your Dashboard</h2>
+            <p style="color: #6b7280; font-size: 14px; margin-top: 4px;">
+                Track ticket progress, report campus issues, and contact support officers.
+            </p>
+        </div>
+
+        <!-- Summary Stats -->
+        <!-- Summary Stats -->
+    <!-- Summary Stats -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <p>Total Tickets</p>
+            <h3 id="totalTickets">0</h3>
+        </div>
+    
+        <div class="stat-card">
+            <p>Open Issues</p>
+            <h3 id="openTickets" style="color: #16a34a;">0</h3>
+        </div>
+    
+        <div class="stat-card">
+            <p>In Progress</p>
+            <h3 id="inProgressTickets" style="color: #d97706;">0</h3>
+        </div>
+    
+        <div class="stat-card">
+            <p>Resolved</p>
+            <h3 id="resolvedTickets" style="color: #4b5563;">0</h3>
+        </div>
+    </div>
+
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

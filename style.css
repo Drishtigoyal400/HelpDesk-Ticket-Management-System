@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    font-size: 20px;
+}
+
+.nav-links a {
+    color: #dbeafe;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Page Container */
+.container {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 15px;
+}
+
+/* Standard Content Card */
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Auth Cards (Login & Signup) */
+.auth-box {
+    max-width: 400px;
+    margin: 70px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.auth-box h2 {
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.auth-box p.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 22px;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-secondary {
+    background-color: #64748b;
+}
+
+.btn-secondary:hover {
+    background-color: #475569;
+}
+
+/* Stats Blocks */
+.stats-grid {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.stat-card {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 18px;
+    text-align: center;
+}
+
+.stat-card p {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.stat-card h3 {
+    font-size: 28px;
+    margin-top: 6px;
+    color: #1e3a8a;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #e2e8f0;
+    padding: 11px 14px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f8fafc;
+    font-weight: bold;
+}
+
+/* Status Badges */
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge-open {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.badge-progress {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.badge-closed {
+    background-color: #f1f5f9;
+    color: #475569;
+}
+
+.badge-high {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.badge-medium {
+    background-color: #ffedd5;
+    color: #9a3412;
+}
+
+.badge-low {
+    background-color: #e0f2fe;
+    color: #075985;
+}
+
+/* Success Box */
+.success-banner {
+    background-color: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    color: #065f46;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}

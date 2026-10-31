@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account - HelpDesk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="auth-box">
+        <h2>Student Registration</h2>
+        <p class="subtitle">Fill out the details below to join</p>
+
+        <!-- Submits to index.html with validation -->
+        <form action="index.html" method="get">
+            <div class="form-group">
+                <label for="regName">Full Name</label>
+                <input type="text" id="regName" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="regEmail">Email Address</label>
+                <input type="email" id="regEmail" placeholder="student@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="regRole">Role</label>
+                <select id="regRole">
+                    <option>Student</option>
+                    <option>Staff Member</option>
+                    <option>Faculty</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="regPass">Password</label>
+                <input type="password" id="regPass" placeholder="At least 6 characters" required minlength="6">
+            </div>
+
+            <button type="submit" class="btn btn-full">Create Account</button>
+        </form>
+
+        <p style="text-align: center; margin-top: 18px; font-size: 13px;">
+            Already registered? <a href="index.html">Back to Login</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
